@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:text="@string/equals"/>
     <TextView
+        android:id="@+id/textV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
