@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/firstET"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -16,6 +17,7 @@
         tools:text="11111"
         android:textSize="30sp" />
     <EditText
+        android:id="@+id/secondET"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:inputType="number"
@@ -23,8 +25,17 @@
         android:gravity="center"
         android:textSize="30sp" />
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/equals"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:gravity="center"
+        tools:text="11111"
+        android:textSize="30sp"/>
+
 
 </LinearLayout>
