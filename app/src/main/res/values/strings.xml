@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EqualNumbers</string>
+    <string name="equals">Сравнить</string>
 </resources>
