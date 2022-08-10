@@ -43,10 +43,9 @@ public class MainActivity extends AppCompatActivity {
                 //endregion
                 Integer one = Integer.valueOf(firstET.getText().toString());
                 Integer two = Integer.valueOf(secondET.getText().toString());
-                if (one.equals(two)){
+                if (one.equals(two)) {
                     textV.setText("Равно");
-                }
-                else {
+                } else {
                     textV.setText("Не равно");
                 }
             }

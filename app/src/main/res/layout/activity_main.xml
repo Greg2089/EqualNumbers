@@ -12,31 +12,34 @@
         android:id="@+id/firstET"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:gravity="center"
-        tools:text="11111"
-        android:textSize="30sp" />
+        android:inputType="number"
+        android:textSize="@dimen/size_all"
+        tools:text="11111" />
+
     <EditText
         android:id="@+id/secondET"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        tools:text="22222"
         android:gravity="center"
-        android:textSize="30sp" />
+        android:inputType="number"
+        android:textSize="@dimen/size_all"
+        tools:text="22222" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/equals"/>
+        android:text="@string/equals" />
+
     <TextView
         android:id="@+id/textV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:gravity="center"
-        tools:text="11111"
-        android:textSize="30sp"/>
+        android:inputType="number"
+        android:textSize="@dimen/size_all"
+        tools:text="11111" />
 
 
 </LinearLayout>
