@@ -10,16 +10,16 @@
 
     <EditText
         android:id="@+id/firstET"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:inputType="number"
         android:textSize="@dimen/size_all"
-        tools:text="11111" />
+        tools:text="111111111" />
 
     <EditText
         android:id="@+id/secondET"
-        android:layout_width="300dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:inputType="number"
